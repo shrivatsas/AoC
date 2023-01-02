@@ -1,7 +1,7 @@
 import pathlib
 from typing import Tuple
 
-walk = pathlib.Path('3.input').read_text()
+walk = pathlib.Path('../3.input').read_text()
 
 def stringify(pos: Tuple):
   return str(pos[0]) + str(pos[1])

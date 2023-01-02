@@ -1,6 +1,6 @@
 #lang racket
 
-(define walk (string-append (file->string "3.input")))
+(define walk (string-append (file->string "../3.input")))
 
 (define (stringify pos)
   (string-append (number->string (car pos)) (number->string (cdr pos))))
