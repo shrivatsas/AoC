@@ -1,0 +1,1 @@
+{:deps {clojure-interop/java.security {:mvn/version "1.0.5"}}}
