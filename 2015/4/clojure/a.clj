@@ -1,6 +1,5 @@
-(ns a)
-
-(import 'java.security.MessageDigest)
+(ns a
+  (:import java.security.MessageDigest))
 
 (defn md5 [^String secret ^Integer zeros] 
   (let [md (MessageDigest/getInstance "MD5")
