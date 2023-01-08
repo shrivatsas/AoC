@@ -1,7 +1,7 @@
 #lang racket
 
 (define input 
-  (port->string (open-input-file "1.input") #:close?  #t))
+  (port->string (open-input-file "../1.input") #:close?  #t))
 
 (define (entered-basement string)
   (define count 0)

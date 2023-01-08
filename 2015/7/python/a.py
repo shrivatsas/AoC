@@ -1,5 +1,4 @@
 import pathlib
-import time
 
 p = pathlib.Path('../7.input')
 
