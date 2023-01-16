@@ -32,11 +32,9 @@ max_cost = 0
 for p in list(permutations(cities)):
   cost = 0
   i = 0
-  print(">>>>", max_cost)
   while i < len(p):
     j = len(p)
     while j > i+1:
-      print(i, j, p[i:j], "<>", p[:i+1], cost)
       if key(p[i:j]) in distances:
         cost += distances[key(p[i:j])]
         distances[key(p[:j])] = cost
